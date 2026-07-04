@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS news_posts (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL,
+    image_path VARCHAR(255) NOT NULL,
+    post_date DATE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
